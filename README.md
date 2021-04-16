@@ -11,7 +11,8 @@ CONTRIBUTE: Contributions are always welcome!
 
 Installation
 -------------------
-```git clone https://github.com/whoisbaby/TwitchFollowers
+```
+git clone https://github.com/whoisbaby/TwitchFollowers
 
 cd TwitchFollowers
 
