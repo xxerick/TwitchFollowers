@@ -17,4 +17,4 @@ cd TwitchFollowers
 
 npm i
 
-node index.js```
+node index.js
