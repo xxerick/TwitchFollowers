@@ -224,7 +224,7 @@ async function sendRequest(userid, token) {
 
         request.post(options, (err, res, body) => {
             if (err) {
-                return console.log(err);
+                return console.log(`Invalid token try with another tokens like tyogihfp9rueyo7vt4ple2wlihmlic`);
             }
             console.log(JSON.parse(body));
             resolve(true)
