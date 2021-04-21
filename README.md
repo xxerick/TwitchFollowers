@@ -2,7 +2,7 @@
 Twitch Farmer is a bot that helps you to get more followers.
 ----------------------
 
-WRITTEN BY: baby#1337
+WRITTEN BY: baby
 
 CONTRIBUTE: Contributions are always welcome!
 
