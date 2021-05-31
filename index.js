@@ -15,7 +15,7 @@ const fetch = require('node-fetch'),
     }
 
 var tokens = fs.readFileSync('./tokens.txt', 'utf-8');
-tokens = tokens.split("\n")
+tokens = tokens.split("\r\n").filter(t => !t.startsWith("#"))
 
 client.on('ready', async () => {
     console.log(`${client.user.tag} is ready !`)
@@ -224,7 +224,7 @@ async function sendRequest(userid, token) {
 
         request.post(options, (err, res, body) => {
             if (err) {
-                return console.log(`Invalid token try with another tokens like tyogihfp9rueyo7vt4ple2wlihmlic`);
+                return console.log(`Invalid twitch token`);
             }
             console.log(JSON.parse(body));
             resolve(true)
