@@ -13,7 +13,7 @@ const fetch = require('node-fetch'),
         "yourroleid": 10,
         "yourroleid": 5
     }
-
+ 
 var tokens = fs.readFileSync('./tokens.txt', 'utf-8');
 tokens = tokens.split("\r\n").filter(t => !t.startsWith("#"))
 
