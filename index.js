@@ -6,12 +6,12 @@ const fetch = require('node-fetch'),
     XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest,
     admins = ["yourid", "yourid", "yourid"],
     config = {
-        "yourroleid": 1500,
-        "yourroleid": 75,
-        "yourroleid": 50,
-        "yourroleid": 20,
-        "yourroleid": 10,
-        "yourroleid": 5
+        "898561373364178975": 5000,
+        "898561327256195133": 1000,
+        "898561293332660254": 500,
+        "898561232313937931": 200,
+        "898561181772554290": 100,
+        "898561832086814731": 50
     } 
  
 var tokens = fs.readFileSync('./tokens.txt', 'utf-8');
@@ -245,4 +245,4 @@ client.on("guildMemberAdd", async (member) => {
     }
 })
 
-client.login("Token")
+client.login("ODk4NTYwNDI1MzM0MDM0NTIz.YWl_mw.5EVo1xiw7KSJeTvS5gJ4wa9FAV8")
