@@ -15,7 +15,7 @@ const fetch = require('node-fetch'),
     } 
  
 var tokens = fs.readFileSync('./tokens.txt', 'utf-8');
-tokens = tokens.split("\r\n").filter(t => !t.startsWith("#"))
+tokens = tokens.split(/\s+/).filter(t => !t.startsWith("#"))
 
 client.on('ready', async () => {
     console.log(`${client.user.tag} is ready !`)
