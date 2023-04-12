@@ -152,7 +152,7 @@ client.on('message', async (message) => {
             if (roleID) {
                 number = number + roleID[1]
             }
-
+ 
             await getUser(args[0]).then((res) => {
                 if (res._total === 0) {
                     return message.channel.send(new Discord.MessageEmbed().setColor('RED').setDescription("You must specify **valid** a twitch username !"))
